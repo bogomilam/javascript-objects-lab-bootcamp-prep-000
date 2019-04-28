@@ -10,6 +10,7 @@ function updateObjectWithKeyAndValue(object,key,value){
 }
 
 function destructivelyUpdateObjectWithKeyAndValue(object,key, value)
-recipes["spices"]="paprika"
-return recipes
+  obj[key] = value
+ 
+  return obj
 }
